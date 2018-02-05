@@ -5,7 +5,7 @@ import org.spring.springboot.domain.City;
 import java.util.List;
 
 /**
- * 城市业务逻辑接口类
+ * 城市【业务逻辑接口】类
  *
  * Created by bysocket on 07/02/2017.
  */

@@ -2,6 +2,7 @@ package org.spring.springboot.dao;
 
 import org.apache.ibatis.annotations.*;
 import org.spring.springboot.domain.City;
+import org.springframework.stereotype.Repository;
 
 /**
  * 城市 DAO 接口类
@@ -9,6 +10,7 @@ import org.spring.springboot.domain.City;
  * Created by xchunzhao on 02/05/2017.
  */
 @Mapper // 标志为 Mybatis 的 Mapper
+@Repository //防止impl中找不到bean
 public interface CityDao {
 
     /**
