@@ -1,0 +1,41 @@
+GET http://localhost:8080/api/city/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-23T060612.200.json
+
+
+###
+GET http://localhost:8080/api/city
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-23T061519.200.json
+<> 2018-05-23T061220.200.json
+<> 2018-05-23T060618.200.json
+
+###
+POST http://localhost:8080/api/city
+Content-Type: application/json
+
+{
+    "provinceId": 2,
+    "cityName": "贵阳市",
+    "description": "yangzhaoyunfei 的家在贵阳。"
+  }
+
+###
+PUT http://localhost:8080/api/city
+Content-Type: application/json
+
+{
+    "id": 2,
+    "provinceId": 2,
+    "cityName": "贵阳市x",
+    "description": "yangzhaoyunfei 的家在贵阳x。"
+  }
+
+###
+DELETE http://localhost:8080/api/city/2
+
+###
