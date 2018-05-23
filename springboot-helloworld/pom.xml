@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-helloworld :: HelloWorld Demo</name>
 
-    <!-- Spring Boot 启动父依赖 -->
+    <!-- Spring Boot starter父依赖 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

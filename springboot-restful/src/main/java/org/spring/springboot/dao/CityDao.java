@@ -8,10 +8,14 @@ import java.util.List;
 
 /**
  * 城市 【DAO 接口】类
- *
+ * <p>
  * Created by bysocket on 07/02/2017.
  */
-@Repository //不加这个注解，ServiceImpl会提示无法注入
+
+/**
+ * 不加这个@Repository注解，ServiceImpl会提示无法注入
+ */
+@Repository
 public interface CityDao {
 
     /**
