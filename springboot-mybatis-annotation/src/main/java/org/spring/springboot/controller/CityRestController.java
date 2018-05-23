@@ -17,6 +17,12 @@ public class CityRestController {
     @Autowired
     private CityService cityService;
 
+    /**
+     * 检索一个资源--带参数
+     *
+     * @param cityName
+     * @return
+     */
     @RequestMapping(value = "/api/city", method = RequestMethod.GET)
     public City findOneCity(@RequestParam(value = "cityName", required = true) String cityName) {
         return cityService.findCityByName(cityName);

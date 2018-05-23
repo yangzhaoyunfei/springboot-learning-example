@@ -1,0 +1,5 @@
+### Get request with parameter
+GET http://localhost:8080/api/city?cityName=温岭市
+Accept: application/json
+
+###

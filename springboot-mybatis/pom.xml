@@ -49,7 +49,7 @@
             <version>${mysql-connector}</version>
         </dependency>
 
-        <!-- Junit -->
+        <!-- Junit 单元测试依赖-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
